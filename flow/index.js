@@ -46,4 +46,16 @@ co(generator,'CO');
 setTimeout(async ()=>{
     await promise('Async/await');
     await promise('Async/await');
-})
+});
+
+// Log.....callback 1560162255883
+// Log.....promise 1560162255893
+// Log.....Generator 1560162255895
+// Log.....CO 1560162255896
+// Log.....Async/await 1560162255897
+// Log.....callback2 1560162256891
+// Log.....promise2 1560162256899
+// Log.....Generator 1560162256900
+// Log.....CO 1560162256901
+// Log.....Async/await 1560162256902
+// Log.....promise3 1560162257903
